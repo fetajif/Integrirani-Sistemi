@@ -1,5 +1,5 @@
 # Integrirani-Sistemi
 
 
-<h1> Proekt - Airplane Reservation System </h1>
-<h1> Domasna - Cinema Ticket System </h1>
+<h3> Proekt - Airplane Reservation System </h3>
+<h3> Domasna - Cinema Ticket System </h3>
