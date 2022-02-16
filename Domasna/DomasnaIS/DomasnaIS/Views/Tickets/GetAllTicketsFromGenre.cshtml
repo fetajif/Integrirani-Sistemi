@@ -1,0 +1,56 @@
+﻿@model DomasnaIS.Domain.DTO.AllTicketsFromGenreDto
+
+<div class="row">
+    <div class="col">
+        <h3>Get Tickets From Genre:</h3>
+        <form asp-action="GetAllTicketsFromGenre" method="post">
+            @Html.HiddenFor(model => model.Tickets)
+            <input asp-for="Genre" type="text" />
+            <input type="submit" value="Export Tickets By Genre" class="btn btn-primary" />
+        </form>
+    </div>
+</div>
+
+<div class="container">
+    <p>File: @ViewData["FileDownloadName"]</p>
+    <p>File Contents: @ViewData["FileContents"]</p>
+</div>
+
+<div class="container">
+    @for (int i = 0; i < Model.Tickets.Count; i++)
+    {
+        var item = Model.Tickets[i];
+
+        if (i % 3 == 0)
+        {
+            @:<div class="row">
+            }
+
+
+            <div class="col-md-3 m-4">
+                <div class="card" style="width: 18rem; height: 35rem;">
+                    <img class="card-img-top" src="@item.MoviePosterURL" style="height: 40%" alt="Image for ticket for the movie @item.MovieTitle!" />
+
+                    <div class="card-body">
+                        <h3 class="card-title">@item.MovieTitle</h3>
+                        <p class="card-text">
+                            Genre: @item.Genre, Imdb Movie Rating: @item.MovieRating<br />
+                            Available from: @item.DateAvailableFrom<br />
+                            Available to: @item.DateAvailableTo<br />
+
+                        </p>
+
+                        <h6>Price: @item.TicketPrice</h6>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            if (i % 3 == 2)
+            {
+            @:</div>
+        }
+    }
+</div>

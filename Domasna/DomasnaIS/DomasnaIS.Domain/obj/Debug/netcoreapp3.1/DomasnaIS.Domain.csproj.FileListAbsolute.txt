@@ -1,0 +1,9 @@
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Domain\obj\Debug\netcoreapp3.1\DomasnaIS.Domain.csproj.AssemblyReference.cache
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Domain\obj\Debug\netcoreapp3.1\DomasnaIS.Domain.AssemblyInfoInputs.cache
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Domain\obj\Debug\netcoreapp3.1\DomasnaIS.Domain.AssemblyInfo.cs
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Domain\obj\Debug\netcoreapp3.1\DomasnaIS.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Domain\bin\Debug\netcoreapp3.1\DomasnaIS.Domain.deps.json
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Domain\bin\Debug\netcoreapp3.1\DomasnaIS.Domain.dll
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Domain\bin\Debug\netcoreapp3.1\DomasnaIS.Domain.pdb
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Domain\obj\Debug\netcoreapp3.1\DomasnaIS.Domain.dll
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Domain\obj\Debug\netcoreapp3.1\DomasnaIS.Domain.pdb

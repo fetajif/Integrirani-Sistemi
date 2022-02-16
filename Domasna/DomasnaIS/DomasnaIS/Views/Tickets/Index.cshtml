@@ -1,0 +1,67 @@
+﻿@model DomasnaIS.Domain.DTO.TicketsFilteredByDateDto
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>All Available Tickets</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Add New Ticket</a>
+</p>
+
+<div class="row">
+    <div class="col">
+        <h3>Filter Tickets by date:</h3>
+        <form asp-action="Index" method="post">
+            @Html.HiddenFor(model => model.AllTickets)
+            <input asp-for="CurrentDate" type="date"/>
+            <input type="submit" value="Filter by Date" class="btn btn-primary"/>
+        </form>
+    </div>
+</div>
+
+<div class="container">
+    @for (int i = 0; i < Model.AllTickets.Count; i++)
+     {
+        var item = Model.AllTickets[i];
+
+        if (i % 3 == 0)
+        {
+          @:<div class="row">
+        }
+
+
+            <div class="col-md-3 m-4">
+                <div class="card" style="width: 18rem; height: 35rem;">
+                    <img class="card-img-top" src="@item.MoviePosterURL" style="height: 40%" alt="Image for ticket for the movie @item.MovieTitle!" />
+
+                    <div class="card-body">
+                        <h3 class="card-title">@item.MovieTitle</h3>
+                        <p class="card-text">
+                            Genre: @item.Genre, Imdb Movie Rating: @item.MovieRating<br />
+                            Available from: @item.DateAvailableFrom<br />
+                            Available to: @item.DateAvailableTo<br />
+
+                        </p>
+
+                        <h6>Price: @item.TicketPrice</h6>
+                    </div>
+
+                    <div class="card-footer">
+
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a>
+                        <a asp-action="AddTicketToCart" asp-route-id="@item.Id" class="btn btn-warning">Add to Cart</a>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            if (i % 3 == 2)
+            {
+               @:</div>
+            }
+     }
+</div>

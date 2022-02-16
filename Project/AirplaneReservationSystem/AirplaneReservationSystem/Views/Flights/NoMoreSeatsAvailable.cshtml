@@ -1,0 +1,12 @@
+﻿@model AirplaneReservationSystem.Domain.DomainModels.Flight
+
+<h2 class="alert-danger">There Aren't Seats Available for the selected flight</h2>
+
+<h4>@Model.AirlineName</h4>
+<h5>@Model.FlightDeparture - @Model.FlightDestination, @Model.Class Class</h5>
+<h6>Date Departure: @Model.DateDeparture, Date Return: @Model.DateReturn</h6>
+<h6>Price: @Model.Price</h6>
+<br />
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

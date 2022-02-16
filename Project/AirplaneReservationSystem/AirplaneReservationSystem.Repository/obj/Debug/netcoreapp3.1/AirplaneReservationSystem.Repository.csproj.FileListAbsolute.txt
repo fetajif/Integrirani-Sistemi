@@ -1,0 +1,12 @@
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Proekt\AirplaneReservationSystem\AirplaneReservationSystem.Repository\bin\Debug\netcoreapp3.1\AirplaneReservationSystem.Repository.deps.json
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Proekt\AirplaneReservationSystem\AirplaneReservationSystem.Repository\bin\Debug\netcoreapp3.1\AirplaneReservationSystem.Repository.dll
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Proekt\AirplaneReservationSystem\AirplaneReservationSystem.Repository\bin\Debug\netcoreapp3.1\AirplaneReservationSystem.Repository.pdb
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Proekt\AirplaneReservationSystem\AirplaneReservationSystem.Repository\bin\Debug\netcoreapp3.1\AirplaneReservationSystem.Domain.dll
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Proekt\AirplaneReservationSystem\AirplaneReservationSystem.Repository\bin\Debug\netcoreapp3.1\AirplaneReservationSystem.Domain.pdb
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Proekt\AirplaneReservationSystem\AirplaneReservationSystem.Repository\obj\Debug\netcoreapp3.1\AirplaneReservationSystem.Repository.csproj.AssemblyReference.cache
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Proekt\AirplaneReservationSystem\AirplaneReservationSystem.Repository\obj\Debug\netcoreapp3.1\AirplaneReservationSystem.Repository.AssemblyInfoInputs.cache
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Proekt\AirplaneReservationSystem\AirplaneReservationSystem.Repository\obj\Debug\netcoreapp3.1\AirplaneReservationSystem.Repository.AssemblyInfo.cs
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Proekt\AirplaneReservationSystem\AirplaneReservationSystem.Repository\obj\Debug\netcoreapp3.1\AirplaneReservationSystem.Repository.csproj.CoreCompileInputs.cache
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Proekt\AirplaneReservationSystem\AirplaneReservationSystem.Repository\obj\Debug\netcoreapp3.1\AirplaneReservationSystem.Repository.csproj.CopyComplete
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Proekt\AirplaneReservationSystem\AirplaneReservationSystem.Repository\obj\Debug\netcoreapp3.1\AirplaneReservationSystem.Repository.dll
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Proekt\AirplaneReservationSystem\AirplaneReservationSystem.Repository\obj\Debug\netcoreapp3.1\AirplaneReservationSystem.Repository.pdb

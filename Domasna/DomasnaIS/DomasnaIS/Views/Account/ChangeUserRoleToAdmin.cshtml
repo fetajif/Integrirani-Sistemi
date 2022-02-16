@@ -1,0 +1,14 @@
+﻿@model DomasnaIS.Domain.Identity.AppUser 
+@{
+    ViewData["Title"] = "ChangeUserRoleToAdmin";
+}
+
+<h1>ChangeUserRoleToAdmin</h1>
+
+<form asp-controller="Account" asp-action="ChangeUserRoleToAdmin" method="post">
+    @Html.HiddenFor(m => m.Id)
+    <select asp-for="SelectedRole" asp-items="Html.GetEnumSelectList<DomasnaIS.Domain.Identity.Role>()">
+        <option value="">Choose a role</option>
+    </select>
+    <button type="submit" class="btn btn-success">Save</button>
+</form>

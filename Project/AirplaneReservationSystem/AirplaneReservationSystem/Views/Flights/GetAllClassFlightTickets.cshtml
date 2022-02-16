@@ -1,0 +1,52 @@
+﻿@model AirplaneReservationSystem.Domain.DTO.AllClassFlightTicketsDto
+
+<div class="row">
+    <div class="col">
+        <h3>Get Flights From Class:</h3>
+        <form asp-action="GetAllClassFlightTickets" method="post">
+            @Html.HiddenFor(model => model.Flights)
+            <label asp-for="Class" class="control-label"></label>
+            <select asp-for="Class" class="form-control" asp-items="Html.GetEnumSelectList<AirplaneReservationSystem.Domain.DomainModels.FlightClass>()">
+                <option value="">Choose a class</option>
+            </select>
+            <input type="submit" value="Export Tickets By Class" class="btn btn-primary" />
+        </form>
+    </div>
+</div>
+
+
+<div class="container">
+    @for (int i = 0; i < Model.Flights.Count; i++)
+    {
+        var item = Model.Flights[i];
+
+        if (i % 3 == 0)
+        {
+            @:<div class="row">
+            }
+
+
+            <div class="col-md-3 m-4">
+                <div class="card" style="width: 18rem; height: 25rem;">
+                    <div class="card-body">
+                        <h3 class="card-title">@item.FlightDeparture - @item.FlightDestination</h3>
+                        <h4>@item.AirlineName</h4>
+                        <p class="card-text">
+                            Date Departure: @item.DateDeparture <br />
+                            Date Return: @item.DateReturn <br />
+                            Class: @item.Class <br />
+                            <span class="btn-outline-danger">Seats Available: @(item.MaxSeats - item.Passengers)</span>
+                        </p>
+
+                        <h6>Price: @item.Price</h6>
+                    </div>
+
+                </div>
+            </div>
+
+            if (i % 3 == 2)
+            {
+            @:</div>
+        }
+    }
+</div>

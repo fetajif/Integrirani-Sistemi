@@ -1,0 +1,15 @@
+﻿@model AirplaneReservationSystem.Domain.Identity.FlightAppUser
+
+@{
+    ViewData["Title"] = "Index";
+}
+<br /><br />
+@if (Model.SelectedRole == AirplaneReservationSystem.Domain.Identity.Role.Admin)
+{
+    <a asp-controller="Flights" asp-action="GetAllClassFlightTickets" class="btn btn-warning">Export Flight Tickets From Class</a>
+    <a asp-controller="User" asp-action="Index" class="btn btn-warning">Import Users</a>
+}
+
+<a asp-controller="Account" asp-action="ChangeUserRoleToAdmin" class="btn btn-success">Change Role</a>
+<br />
+<br />

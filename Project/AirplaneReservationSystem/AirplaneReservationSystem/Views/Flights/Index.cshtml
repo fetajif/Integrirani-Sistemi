@@ -1,0 +1,95 @@
+﻿@model AirplaneReservationSystem.Domain.DTO.FilteredFlightsDto
+@inject AirplaneReservationSystem.Domain.Identity.FlightAppUser flightUser
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Available Flights</h1>
+<script>console.log("Role of user is:" + @flightUser.SelectedRole);</script>
+<p>
+    @if (this.User.Identity.IsAuthenticated && flightUser.SelectedRole == AirplaneReservationSystem.Domain.Identity.Role.Admin)
+    {
+        <a asp-action="Create" class="btn btn-primary">Add New Flight</a>
+    }
+</p>
+
+<div class="row">
+    <div class="col">
+        <h3>Filter Flights:</h3>
+        <form asp-action="Index" method="post">
+            @Html.HiddenFor(model => model.AllFlights)
+            <div class="form-group">
+                <label asp-for="DateDeparture"></label>
+                <input asp-for="DateDeparture"/>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateReturn"></label>
+                <input asp-for="DateReturn"/>
+            </div>
+            <div class="form-group">
+                <label asp-for="FlightDeparture"></label>
+                <input asp-for="FlightDeparture" type="text" />
+            </div>
+            <div class="form-group">
+                <label asp-for="FlightDestination"></label>
+                <input asp-for="FlightDestination" type="text" />
+            </div>
+            <input type="submit" value="Search" class="btn btn-primary" />
+        </form>
+    </div>
+</div>
+
+<div class="container">
+    @for (int i = 0; i < Model.AllFlights.Count; i++)
+    {
+        var item = Model.AllFlights[i];
+
+        if (i % 3 == 0)
+        {
+            @:<div class="row">
+            }
+
+
+            <div class="col-md-3 m-4">
+                <div class="card" style="width: 18rem; height: 25rem;">
+                    <div class="card-body">
+                        <h3 class="card-title">@item.FlightDeparture - @item.FlightDestination</h3>
+                        <h4>@item.AirlineName</h4>
+                        <p class="card-text">
+                            Date Departure: @item.DateDeparture <br />
+                            Date Return: @item.DateReturn <br />
+                            Class: @item.Class <br />
+                            <span class="btn-outline-danger">Seats Available: @(item.MaxSeats - item.Passengers)</span>
+                        </p>
+
+                        <h6>Price: @item.Price</h6>
+                    </div>
+
+                    @if (this.User.Identity.IsAuthenticated)
+                    {
+                <div class="card-footer">
+
+                    <a asp-action="AddFlightTicketToCart" asp-route-id="@item.Id" class="btn btn-warning">Add to Cart</a>
+                    @if (flightUser.SelectedRole == AirplaneReservationSystem.Domain.Identity.Role.Admin)
+                    {
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                    }
+                </div>
+                    }
+                    else
+                    {
+                        <div class="card-footer">
+                            <a asp-controller="Account" asp-action="Login" class="btn btn-warning">Add to Cart</a>
+                        </div>
+                    }
+                </div>
+            </div>
+
+            if (i % 3 == 2)
+            {
+            @:</div>
+        }
+    }
+</div>

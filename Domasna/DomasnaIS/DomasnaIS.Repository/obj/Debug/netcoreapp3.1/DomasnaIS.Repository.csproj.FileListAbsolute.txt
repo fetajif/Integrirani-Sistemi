@@ -1,0 +1,12 @@
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Repository\bin\Debug\netcoreapp3.1\DomasnaIS.Repository.deps.json
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Repository\bin\Debug\netcoreapp3.1\DomasnaIS.Repository.dll
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Repository\bin\Debug\netcoreapp3.1\DomasnaIS.Repository.pdb
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Repository\obj\Debug\netcoreapp3.1\DomasnaIS.Repository.csproj.AssemblyReference.cache
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Repository\obj\Debug\netcoreapp3.1\DomasnaIS.Repository.AssemblyInfoInputs.cache
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Repository\obj\Debug\netcoreapp3.1\DomasnaIS.Repository.AssemblyInfo.cs
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Repository\obj\Debug\netcoreapp3.1\DomasnaIS.Repository.csproj.CoreCompileInputs.cache
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Repository\obj\Debug\netcoreapp3.1\DomasnaIS.Repository.dll
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Repository\obj\Debug\netcoreapp3.1\DomasnaIS.Repository.pdb
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Repository\bin\Debug\netcoreapp3.1\DomasnaIS.Domain.dll
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Repository\bin\Debug\netcoreapp3.1\DomasnaIS.Domain.pdb
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Repository\obj\Debug\netcoreapp3.1\DomasnaIS.Repository.csproj.CopyComplete

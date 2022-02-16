@@ -1,0 +1,14 @@
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Service\bin\Debug\netcoreapp3.1\DomasnaIS.Service.deps.json
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Service\bin\Debug\netcoreapp3.1\DomasnaIS.Service.dll
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Service\bin\Debug\netcoreapp3.1\DomasnaIS.Service.pdb
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Service\obj\Debug\netcoreapp3.1\DomasnaIS.Service.csproj.AssemblyReference.cache
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Service\obj\Debug\netcoreapp3.1\DomasnaIS.Service.AssemblyInfoInputs.cache
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Service\obj\Debug\netcoreapp3.1\DomasnaIS.Service.AssemblyInfo.cs
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Service\obj\Debug\netcoreapp3.1\DomasnaIS.Service.csproj.CoreCompileInputs.cache
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Service\obj\Debug\netcoreapp3.1\DomasnaIS.Service.dll
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Service\obj\Debug\netcoreapp3.1\DomasnaIS.Service.pdb
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Service\bin\Debug\netcoreapp3.1\DomasnaIS.Domain.dll
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Service\bin\Debug\netcoreapp3.1\DomasnaIS.Repository.dll
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Service\bin\Debug\netcoreapp3.1\DomasnaIS.Domain.pdb
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Service\bin\Debug\netcoreapp3.1\DomasnaIS.Repository.pdb
+C:\Users\User5531\Desktop\6th semester\Integrirani Sistemi\Domasna\DomasnaIS\DomasnaIS.Service\obj\Debug\netcoreapp3.1\DomasnaIS.Service.csproj.CopyComplete
